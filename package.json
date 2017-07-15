@@ -1,0 +1,25 @@
+{
+  "name": "bodhitree",
+  "version": "1.0.0",
+  "description": "Bodhi Tree website",
+  "main": "index.js",
+  "dependencies": {
+    "reload": "^2.0.0"
+  },
+  "devDependencies": {
+    "reload": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thrillstone/bodhitree.git"
+  },
+  "author": "Kevin Lidstone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thrillstone/bodhitree/issues"
+  },
+  "homepage": "https://github.com/thrillstone/bodhitree#readme"
+}
