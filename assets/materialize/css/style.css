@@ -8,50 +8,68 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+	color: #444;
+}
+
+.navbar-fixed {
+	position: fixed;
+	height: 0px;
+}
+
+.navbar-fixed, nav {
+	margin-top: -70px;
+	transition: margin-top 500ms;
+}
+
+.navbar-fixed.loaded, nav.loaded {
+	margin-top: 0;
 }
 
 p {
-  line-height: 2rem;
+	line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+	color: #26a69a;
+}
+
+#index-banner.parallax-container {
+	height: 100vh;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+	width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 40%;
+	}
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+	#index-banner .section {
+		top: 40%;
+	}
 }
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+	font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+	margin: 0;
 }

@@ -1,0 +1,9 @@
+.description .name {
+	font-weight: 500;
+	font-size: 24px;
+	color: #111;
+}
+
+.description .text {
+	color: #666;
+}
