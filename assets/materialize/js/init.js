@@ -5,7 +5,7 @@
 		$('.parallax').parallax();
 		var options = [
 			{
-				selector: '#index-banner', offset: 800, callback: function (el) {
+				selector: '#index-banner', offset: 1200, callback: function (el) {
 					$("nav").addClass("loaded");
 					$(".navbar-fixed").addClass("loaded");
 				}

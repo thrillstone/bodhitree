@@ -25,6 +25,13 @@ nav .brand-logo {
 	margin-top: 0;
 }
 
+h1 {
+	font-size: 90px;
+	font-family: fantasy;
+	color: #96bb29;
+	text-shadow: 2px 2px #000;
+}
+
 p {
 	line-height: 2rem;
 }
