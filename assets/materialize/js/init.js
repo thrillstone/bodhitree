@@ -15,3 +15,8 @@
 
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
+
+function addBannerClass() {
+	console.log("Kevin");
+	$(".banner").addClass("loaded");
+}
