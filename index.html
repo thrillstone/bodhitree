@@ -185,7 +185,10 @@
 						</table>
 					</div>
 					<div class="col s12">
-						<img src="assets/images/schedule.jpg" class="responsive-img">
+						<p>Classes are divided into 70 and 90 minute sessions. Please check the class schedule beforehand to confirm class times.</p>
+						<p>Please try to maintain quite in the classroom. Cell phones, shoes, bags and backpacks should not be brought inside.</p>
+						<p>If you suffer from high blood pressure, diabetes, heart disease, respiratory problems, epilepsy or other chronic conditions, please exercise extreme caution when joining yoga class.</p>
+						<p>We sincerely apologize for any inconvenience that may be caused by sudden schedule changes.</p>
 					</div>
 					<br>
 					<div class="col s12">
@@ -205,14 +208,50 @@
 					<div class="col s12 center">
 						<h3><i class="mdi-content-send brown-text"></i></h3>
 						<h4>Contact Us</h4>
-						<p class="left-align light">Email and phone number coming soon.</p>
+						<p class="left-align light">
+							 Address: No 10-2 Zhongshan 1st Rd., Xinxing District, Kaohsiung City 800, Taiwan (R.O.C), 80054
+						</p>
+						<p class="left-align light">
+							Phone number: 07-282-8282
+						</p>
 					</div>
 				</div>
+
+				<div id="map" style="height: 500px;"></div>
+				<script>
+					function initMap() {
+						var map = new google.maps.Map(document.getElementById('map'), {
+							center: { lat: 22.625493, lng: 120.2994242 },
+							zoom: 17
+						});
+
+						var infowindow = new google.maps.InfoWindow();
+						var service = new google.maps.places.PlacesService(map);
+						service.getDetails({
+								placeId: 'ChIJNX57PoYEbjQRcjGzio9SSJ8'
+							}, function (place, status) {
+								if (status === google.maps.places.PlacesServiceStatus.OK) {
+									var marker = new google.maps.Marker({
+										map: map,
+										position: place.geometry.location
+									});
+									google.maps.event.addListener(marker, 'click', function () {
+										infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+											'Place ID: ' + place.place_id + '<br>' +
+											place.formatted_address + '</div>');
+										infowindow.open(map, this);
+									});
+								}
+							});
+					}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjO0e063rE7WN_YQeWja3t_aft_T59KGw&libraries=places&callback=initMap" async
+				 defer></script>
 
 			</div>
 		</div>
 
-		<footer class="page-footer teal">
+		<footer class="page-footer">
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">

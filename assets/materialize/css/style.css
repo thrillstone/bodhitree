@@ -5,15 +5,13 @@
  *
  * Made By MaterializeCSS.com
  */
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
 h3 {
 	color: #bf9950;
 }
-
+.material-icons {
+	color: #bf9950;
+}
 nav ul a,
 nav .brand-logo {
 	color: #444;
@@ -30,17 +28,17 @@ nav {
 	-webkit-box-shadow: none;
 }
 
-nav ul li {
+nav #nav-big li {
 	line-height: 85px;
 	height: 85px;
 }
 
-nav ul li a {
+nav #nav-big li a {
 	width: 150px;
 	text-align: center;
 }
 
-nav ul li a.last {
+nav #nav-big li a.last {
 	background: #bf9950;
 	color: white;
 }
@@ -81,15 +79,15 @@ p {
 }
 
 .banner .word:nth-child(1) {
-	transition-delay: 1000ms;
+	transition-delay: 500ms;
 }
 
 .banner .word:nth-child(2) {
-	transition-delay: 1500ms;
+	transition-delay: 1000ms;
 }
 
 .banner .word:nth-child(3) {
-	transition-delay: 1800ms;
+	transition-delay: 1300ms;
 }
 
 .banner.loaded .word {
@@ -159,4 +157,5 @@ p {
 
 footer.page-footer {
 	margin: 0;
+	background-color: #bf9950;
 }
