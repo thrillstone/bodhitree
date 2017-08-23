@@ -10,7 +10,7 @@ h3 {
 	color: #bf9950;
 }
 .material-icons {
-	color: #bf9950;
+	color: black;
 }
 nav ul a,
 nav .brand-logo {
@@ -148,15 +148,15 @@ p {
 }
 
 .banner .word:nth-child(1) {
-	transition-delay: 500ms;
+	transition-delay: 100ms;
 }
 
 .banner .word:nth-child(2) {
-	transition-delay: 1000ms;
+	transition-delay: 600ms;
 }
 
 .banner .word:nth-child(3) {
-	transition-delay: 1300ms;
+	transition-delay: 900ms;
 }
 
 .banner.loaded .word {
@@ -261,6 +261,9 @@ p {
 	display: flex;
 	flex-direction: row;
 	font-size: 12px;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+	padding: 0 !important;
+	overflow: scroll;
 }
 
 .schedule-column {
@@ -270,6 +273,7 @@ p {
 	border-right: 1px solid #333;
 	border-bottom: 1px solid #333;
 	font-family: Roboto;
+	background: white;
 }
 
 .schedule-column .schedule-row {
@@ -283,12 +287,12 @@ p {
 }
 
 .times {
-	background: #CCC;
+	background: #DDD;
+	font-family: Roboto;
 }
 
 .times.schedule-column {
 	flex: none;
-	border-left: 1px solid #333;
 }
 
 .schedule-column .title {
@@ -303,8 +307,12 @@ p {
 .schedule-column .time {
 	font-size: 10px;
 	position: absolute;
-	top: 10px;
+	top: 29px;
 	right: 5px;
+}
+
+.weekend.schedule-column .time {
+	top: 46px;
 }
 
 .schedule-row .teacher{
@@ -320,5 +328,5 @@ p {
 
 footer.page-footer {
 	margin: 0;
-	background-color: #bfd88d
+	background-color: #bf9950
 }

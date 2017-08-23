@@ -20,18 +20,27 @@
 	position: absolute;
 	right: 0;
 	left: 0;
-	top: 300px;
+	top: 100px;
 }
 
 .facilities nav .location h1 {
+	color: #bfd88d;
 	color: #bf9950;
 	text-align: center;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: Helvetica;
-	font-weight: 700;
-	 text-shadow:
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;  
+	font-weight: 300;
+	text-shadow: black 2px 1px;
+	margin-bottom: 10px;
+}
+
+.facilities nav .location h2 {
+	margin-top: 0;
+	color: #bfd88d;
+	color: #bf9950;
+	text-align: center;
+	font-size: 25px;
+	font-family: Helvetica;
+	font-weight: 300;
+	text-shadow: black 2px 1px;
 }
