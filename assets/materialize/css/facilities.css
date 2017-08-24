@@ -12,8 +12,12 @@
 }
 
 .facilities nav #nav-big li a.last {
-	background: none;
+	background: transparent;
 	color: black;
+}
+
+nav #nav-big li a.last:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .facilities nav .location {

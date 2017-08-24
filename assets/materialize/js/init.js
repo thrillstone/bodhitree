@@ -18,7 +18,7 @@ function doSomething(scroll_pos) {
 	if (scroll_pos == 0) {
 		$("nav").removeClass("loaded");
 		$(".navbar-fixed").removeClass("loaded");
-	} else if (scroll_pos >= 400) {
+	} else if (scroll_pos >= 200) {
 		$("nav").addClass("loaded");
 		$(".navbar-fixed").addClass("loaded");
 	}

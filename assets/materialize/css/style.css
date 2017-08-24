@@ -46,7 +46,7 @@ nav #nav-big li a {
 }
 
 nav #nav-big li a.last {
-	background: #bf9950;
+	background-color: #bf9950;
 	color: white;
 }
 
@@ -300,6 +300,14 @@ p {
 	color: white;
 }
 
+.schedule-column.weekday {
+	min-width: 105px;
+}
+
+.schedule-column .name {
+	font-size: 14px;
+}
+
 .schedule-column .clock {
 	font-size: 10px;
 }
@@ -317,6 +325,10 @@ p {
 
 .schedule-row .teacher{
 	color: rgba(0, 0, 0, 0.65);
+}
+
+.contact-us p {
+	margin: 0;
 }
 
 .icon-block {
