@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Bodhi Tree Yoga</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+</head>
+<body onload="addBannerClass(); addScrollListener()">
+	<div class="navbar-fixed">
+		<nav class="white" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="index.html" class="brand-logo"><img width="160px" src="assets/images/logo.png"></a>
+				<ul id="nav-big" class="right hide-on-med-and-down">
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="team.html">TEAM</a></li>
+					<li><a class="last" href="index.html#schedule">SCHEDULE</a></li>
+				</ul>
+				<div class="language">
+					<a href="index.html">en</a href="index.html"><a href="mandarin.html">ch</a href="index.html">
+				</div>
+
+
+				<ul id="nav-mobile" class="side-nav">
+					<li><a href="facilities.html">FACILITIES</a></li>
+					<li><a href="team.html">TEAM</a></li>
+					<li><a href="index.html#schedule">TIMES</a></li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</div>
+
+	<div id="index-banner" class="valign-wrapper">
+		<div class="container">
+			<div class="banner">
+				<div class="name">
+					<div class="word">BODHI</div>
+					<div class="word">TREE</div>
+					<div class="word" style="color: #bf9950;">YOGA</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container yoga-items">
+		<h4>无论你寻找什么:</h4>
+		<div class="row">
+			<div class="col l3 m6 s12">
+				<div class="yoga-item">
+					<img src="assets/images/strengthen.png"/>
+					<div class="description">强度</div> 
+				</div>
+			</div>
+			<div class="col l3 m6 s12">
+				<div class="yoga-item">
+					<img src="assets/images/relax.jpg" />
+					<div class="description">放松</div>
+				</div>
+			</div>
+			<div class="col l3 m6 s12">
+				<div class="yoga-item">
+					<img src="assets/images/flexibility.jpg" />
+					<div class="description">灵活</div>
+				</div>
+			</div>
+			<div class="col l3 m6 s12">
+				<div class="yoga-item">
+					<img src="assets/images/beginners.jpg" />
+					<div class="description">技巧</div>
+				</div>
+			</div>
+		</div>
+		<h5>菩提树瑜伽都有为您量身定做的课程</h5>
+	</div>
+
+
+	<div class="schedule-container">
+		<div class="container">
+			<div class="section">
+
+				<!--   Icon Section   -->
+				<div class="row">
+					<div class="col s12 m12">
+						<h3 id="schedule">Weekly Schedule</h3>
+					</div>
+					<div class="col s12 m12 schedule-columns">
+						<div class="schedule-column times">
+							<div class="schedule-row title">Time</div>
+							<div class="schedule-row">08:30</div>
+							<div class="schedule-row">09:00</div>
+							<div class="schedule-row">10:30</div>
+							<div class="schedule-row">12:20</div>
+							<div class="schedule-row">14:00</div>
+							<div class="schedule-row">18:00</div>
+							<div class="schedule-row">18:20</div>
+							<div class="schedule-row">18:50</div>
+							<div class="schedule-row">19:30</div>
+							<div class="schedule-row">20:00</div>
+						</div>
+						<div class="schedule-column weekday">
+							<div class="schedule-row title">Monday</div>
+							<div class="schedule-row">
+								<div class="name">Meridian yoga</div>
+								<div class="teacher">Selena</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Alignment</div>
+								<div class="teacher">Jing-fen</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Alignment (chair)</div>
+								<div class="teacher">Jing-fen</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Flow</div>
+								<div class="teacher">Sophia</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Restorative</div>
+								<div class="teacher">Jing-fen</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga groove</div>
+								<div class="teacher">Sophia</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Ashtanga</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hatha</div>
+								<div class="teacher">A-ling</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hot yoga</div>
+								<div class="teacher">Aron</div>
+							</div>
+						</div>
+						<div class="schedule-column weekday">
+							<div class="schedule-row title">Tuesday</div>
+							<div class="schedule-row">
+								<div class="name">Hot yoga</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yin yang yoga</div>
+								<div class="teacher">Gilbert</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Aerial yoga</div>
+								<div class="teacher">Selena</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Basic yoga</div>
+								<div class="teacher">Bekaa</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Flow</div>
+								<div class="teacher">Echo</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Flow</div>
+								<div class="teacher">A-ling</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hatha</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yin yoga</div>
+								<div class="teacher">Sophia</div>
+							</div>
+						</div>
+						<div class="schedule-column weekday">
+							<div class="schedule-row title">Wednesday</div>
+							<div class="schedule-row">
+								<div class="name">Aerial yoga</div>
+								<div class="teacher">Selena</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Flow</div>
+								<div class="teacher">Sophia</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Flow</div>
+								<div class="teacher">Momo</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Ashtanga</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Meridian</div>
+								<div class="teacher">Selena</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hot yoga</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Aerial yoga</div>
+								<div class="teacher">Selena</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yin yoga</div>
+								<div class="teacher">Sophia</div>
+							</div>
+						</div>
+						<div class="schedule-column weekday">
+							<div class="schedule-row title">Thursday</div>
+							<div class="schedule-row">
+								<div class="name">Hot yoga</div>
+								<div class="teacher">Xiao-ya</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga groove</div>
+								<div class="teacher">Sophia</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hatha</div>
+								<div class="teacher">Xiao-ya</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Alignment</div>
+								<div class="teacher">Bekaa</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Kundalini</div>
+								<div class="teacher">Ravi</div>
+								<div class="time red-text">90 min</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Flow</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Ashtanga</div>
+								<div class="teacher">A-ling</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yin yoga</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hot yoga</div>
+								<div class="teacher">A-ling</div>
+							</div>
+						</div>
+						<div class="schedule-column weekday">
+							<div class="schedule-row title">Friday</div>
+							<div class="schedule-row">
+								<div class="name">Basic yoga</div>
+								<div class="teacher">Aron</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Power</div>
+								<div class="teacher">Sophia</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Iyengar 1</div>
+								<div class="teacher">Anita</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Restorative</div>
+								<div class="teacher">Echo</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Iyengar 2</div>
+								<div class="teacher">Anita</div>
+								<div class="time red-text">90 min</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Aerial yoga</div>
+								<div class="teacher">Selena</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Kundalini</div>
+								<div class="teacher">Ravi</div>
+								<div class="time red-text">90 min</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Hot yoga</div>
+								<div class="teacher">A-ling</div>
+							</div>
+							<div class="schedule-row">
+								<div class="name">Restorative</div>
+								<div class="teacher">Anita</div>
+							</div>
+						</div>
+						<div class="schedule-column weekday weekend">
+							<div class="schedule-row title">Saturday</div>
+							<div class="schedule-row">
+								<div class="clock">09:00</div>
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">09:30</div>
+								<div class="name">Iyengar 2</div>
+								<div class="teacher">Anita</div>
+								<div class="time red-text">90 min</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">10:30</div>
+								<div class="name">Mysore</div>
+								<div class="teacher">Wei-ling</div>
+								<div class="time red-text">90 min</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">12:30</div>
+								<div class="name">Ashtanga</div>
+								<div class="teacher">Wei-ling</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">15:00</div>
+								<div class="name">Restorative</div>
+								<div class="teacher">Anita</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">17:30</div>
+								<div class="name">Iyengar basic</div>
+								<div class="teacher">Anita</div>
+								<div class="time red-text">90 min</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">18:00</div>
+								<div class="name">Flow</div>
+								<div class="teacher">Shi-shiun</div>
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+							</div>
+						</div>
+						<div class="schedule-column weekday weekend">
+							<div class="schedule-row title">Saturday</div>
+							<div class="schedule-row">
+								<div class="clock">09:00</div>
+								<div class="name">Gentle flow</div>
+								<div class="teacher">Sophia</div>
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+								<div class="clock">10:30</div>
+								<div class="name">Yoga therapy</div>
+								<div class="teacher">Mike</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">12:30</div>
+								<div class="name">Hatha</div>
+								<div class="teacher">Xiao-ya</div>
+							</div>
+							<div class="schedule-row">
+								<div class="clock">15:00</div>
+								<div class="name">Flow</div>
+								<div class="teacher">Momo</div>
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+							</div>
+							<div class="schedule-row">
+							</div>
+						</div>
+					</div>
+					<div class="col s12">
+						<ul>
+							<li>* Classes are divided into 70 and 90 minute sessions. Please check the class schedule beforehand to confirm class times.</li>
+							<li>* Please try to maintain quiet in the classroom. Cell phones, shoes, bags and backpacks should not be brought inside.</li>
+							<li>* If you suffer from high blood pressure, diabetes, heart disease, respiratory problems, epilepsy or other chronic conditions, please exercise extreme caution when joining yoga class.</li>
+							<li>* We sincerely apologize for any inconvenience that may be caused by sudden schedule changes.</li>
+						</ul>
+					</div>
+					<br>
+					<!--<div class="col s12">
+						<img src="assets/images/schedule_cn.jpg" class="responsive-img">
+					</div>-->
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="contact-us">
+		<div class="container">
+			<div class="section">
+
+				<div class="row">
+					<div class="col s12">
+						<h3><i class="mdi-content-send brown-text"></i></h3>
+						<h4>Contact Us</h4>
+						<p class="left-align light">
+							<p>No 10-2 Zhongshan 1st Rd.</p>
+							<p>Xinxing District, Kaohsiung City</p>
+							<p>Taiwan (R.O.C), 80054</p>
+							<p>Phone number: 07-282-8282</p>
+						</p>
+					</div>
+				</div>
+
+				<div id="map" style="height: 500px;"></div>
+				<script>
+					function initMap() {
+						var map = new google.maps.Map(document.getElementById('map'), {
+							center: { lat: 22.625493, lng: 120.3014242 },
+							zoom: 17
+						});
+
+						var infowindow = new google.maps.InfoWindow();
+						var service = new google.maps.places.PlacesService(map);
+						service.getDetails({
+								placeId: 'ChIJNX57PoYEbjQRcjGzio9SSJ8'
+							}, function (place, status) {
+								if (status === google.maps.places.PlacesServiceStatus.OK) {
+									var marker = new google.maps.Marker({
+										map: map,
+										position: place.geometry.location
+									});
+									google.maps.event.addListener(marker, 'click', function () {
+										infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+											'Place ID: ' + place.place_id + '<br>' +
+											place.formatted_address + '</div>');
+										infowindow.open(map, this);
+									});
+								}
+							});
+					}
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjO0e063rE7WN_YQeWja3t_aft_T59KGw&libraries=places&callback=initMap" async
+				 defer></script>
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Bodhi Tree Yoga</h5>
+					<p class="grey-text text-lighten-4">We are yoga studio dedicated to a healthier you.</p>
+
+
+				</div>
+				<!--<div class="col l3 s12">
+					<h5 class="white-text">Settings</h5>
+					<ul>
+						<li><a class="white-text" href="#!">Link 1</a></li>
+						<li><a class="white-text" href="#!">Link 2</a></li>
+						<li><a class="white-text" href="#!">Link 3</a></li>
+						<li><a class="white-text" href="#!">Link 4</a></li>
+					</ul>
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Connect</h5>
+					<ul>
+						<li><a class="white-text" href="#!">Link 1</a></li>
+						<li><a class="white-text" href="#!">Link 2</a></li>
+						<li><a class="white-text" href="#!">Link 3</a></li>
+						<li><a class="white-text" href="#!">Link 4</a></li>
+					</ul>
+				</div>-->
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				
+			</div>
+		</div>
+	</footer>
+
+
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="assets/materialize/js/materialize.js"></script>
+	<script src="assets/materialize/js/init.js"></script>
+
+</body>
+</html>
